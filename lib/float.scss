@@ -1,0 +1,24 @@
+/* 浮动方式 */
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.fn {
+    float: none;
+}
+.clear {
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    clear: both;
+}
+.clearfix:after {
+    clear: both;
+    content: '.';
+    display: block;
+    visibility: hidden;
+    height: 0;
+}

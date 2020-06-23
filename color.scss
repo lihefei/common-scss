@@ -1,0 +1,58 @@
+$primary: #409eff;
+$success: #67c23a;
+$warning: #e6a23c;
+$danger: #f56c6c;
+$info: #909399;
+$gray-light: #f4f4f5;
+
+.c-primary {
+    color: $primary;
+}
+
+.c-success {
+    color: $success;
+}
+.c-warning {
+    color: $warning;
+}
+.c-danger {
+    color: $danger;
+}
+.c-info {
+    color: $info;
+}
+
+.c-333 {
+    color: #333;
+}
+.c-gray,
+.c-666 {
+    color: #666;
+}
+.c-999 {
+    color: #999;
+}
+
+.c-02b541 {
+    color: #02b541;
+}
+
+.bc-primary {
+    background-color: $primary;
+}
+
+.bc-success {
+    background-color: $success;
+}
+.bc-warning {
+    background-color: $warning;
+}
+.bc-danger {
+    background-color: $danger;
+}
+.bc-info {
+    background-color: $info;
+}
+.bc-gray-light {
+    background-color: $gray-light;
+}

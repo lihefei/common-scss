@@ -1,0 +1,13 @@
+/* 无数据提示 */
+.no-data {
+    position: relative;
+}
+.no-data::after {
+    content: '';
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    color: #b8c6dc;
+    font-size: 14px;
+    transform: translate(-50%, 100px);
+}

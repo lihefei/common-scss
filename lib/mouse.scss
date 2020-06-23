@@ -1,0 +1,19 @@
+/* 鼠标显示方式 */
+.cp {
+    cursor: pointer;
+}
+.cd {
+    cursor: default;
+}
+
+/* 元素事件不响应 */
+.pe-n {
+    pointer-events: none;
+}
+
+/* 禁止用户复制 */
+.us-n {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+}

@@ -1,0 +1,34 @@
+@mixin border($type: '') {
+    border#{$type}: 1px solid #eee;
+}
+
+@mixin radius($size: 0px) {
+    border-radius: $size;
+}
+
+.b-t1 {
+    @include border(-top);
+}
+.b-r1 {
+    @include border(-right);
+}
+.b-b1 {
+    @include border(-bottom);
+}
+.b-l1 {
+    @include border(-left);
+}
+.b1 {
+    @include border();
+}
+
+.radius-mini {
+    @include radius(2px);
+}
+.radius-small {
+    @include radius(4px);
+}
+
+.radius-medium {
+    @include radius(30px);
+}

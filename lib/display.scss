@@ -1,0 +1,30 @@
+/* 显示方式 */
+.dn {
+    display: none;
+}
+.db {
+    display: block;
+}
+.di {
+    display: inline;
+}
+.d-ib {
+    display: inline-block;
+}
+.df {
+    display: flex;
+}
+.df-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.df-ai-c {
+    display: flex;
+    align-items: center;
+}
+
+.df-jc-sb {
+    display: flex;
+    justify-content: space-between;
+}
